@@ -46,9 +46,9 @@ Extract the ZIP file and host the static portal on your preferred web server.
 Note: The sync API is ideal for most scenarios but has a 4-minute processing limit.
 
 ### Option B: Using the Async API
-Step 1:
+- Step 1:
 Submit your build input to the Async endpoint. You will receive an ID and status endpoint.
-Step 2:
+- Step 2:
 Poll the status endpoint until the portal is ready.
 Step 3:
 Once complete, download and extract the ZIP file containing your API portal.
