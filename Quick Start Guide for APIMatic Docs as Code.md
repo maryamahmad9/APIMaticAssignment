@@ -2,13 +2,13 @@
 This guide helps you get started quickly with APIMatic’s Docs as Code solution to generate and deploy your API portal.
 ## Set Up Prerequisites
 - Obtain an API Key:
-Request an authentication key by following the instructions provided in this section or by emailing support@apimatic.io.
+Request an authentication key by following the instructions provided [in this section]([url](https://docs.apimatic.io/account-management/obtaining-auth-keys/)) or by emailing support@apimatic.io.
 -	Install Required Tools:
 	- Git for repository management
   	- A code editor (e.g., VSCode)
 	- Optional: A static web server (e.g., http-server via npm) for local portal preview
 - Clone the Sample Repository:
-Download the sample Docs as Code repository from GitHub.
+Download the sample Docs as Code repository from [GitHub]([url](https://github.com/apimatic/static-portal-workflow)).
 ## Prepare the Build Input
 Your build input consists of several components:
 -	Spec Directory:
