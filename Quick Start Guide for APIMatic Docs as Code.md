@@ -5,10 +5,10 @@ This guide helps you get started quickly with APIMatic’s Docs as Code solution
 Request an authentication key by following the instructions provided in this section or by emailing support@apimatic.io.
 -	Install Required Tools:
 	- Git for repository management
-  - A code editor (e.g., VSCode)
+  	- A code editor (e.g., VSCode)
 	- Optional: A static web server (e.g., http-server via npm) for local portal preview
 - Clone the Sample Repository:
-- Download the sample Docs as Code repository from GitHub.
+Download the sample Docs as Code repository from GitHub.
 ## Prepare the Build Input
 Your build input consists of several components:
 -	Spec Directory:
@@ -35,4 +35,27 @@ Example:
   }
 }
 ```
+## Generate Your API Portal
+Choose one of the two methods based on your API spec size and complexity:
 
+### Option 1: Using the Sync API
+- Step 1:
+Submit your build input to the APIMatic Portal Generation Sync endpoint. A successful call returns a ZIP file.
+- Step 2:
+Extract the ZIP file and host the static portal on your preferred web server.
+Note: The sync API is ideal for most scenarios but has a 4-minute processing limit.
+
+### Option B: Using the Async API
+Step 1:
+Submit your build input to the Async endpoint. You will receive an ID and status endpoint.
+Step 2:
+Poll the status endpoint until the portal is ready.
+Step 3:
+Once complete, download and extract the ZIP file containing your API portal.
+Tip: Use this method for large or complex API specifications.
+
+## Automate Deployment (Optional)
+Leverage GitHub Actions to automate the entire process:
+- Fork the sample repository containing workflow files (e.g., DeployStaticPortal.yml for sync or DeployStaticPortalAsync.yml for async).
+- Configure the workflow with your repository secrets.
+- Whenever a commit is pushed to the master branch, the workflow is triggered automatically and the deployed server will reflect the updated portal.
