@@ -1,5 +1,5 @@
 # Analysis of APIMatic’s Docs as Code Documentation
-The documentation covers the complete lifecycle of managing API documentation as code. It details how to provide the inputs for portal generation, generate an API portal (both via synchronous and asynchronous APIs), automate portal generation. It also supports typical use cases, such as migrating an existing API portal to a docs-as-code workflow.
+The documentation covers the complete lifecycle of managing API documentation as code. It details how to provide the inputs for portal generation, generate an API portal (both via synchronous and asynchronous APIs), and automate portal generation. It also covers typical use cases, such as migrating an existing API portal to a docs-as-code workflow.
 ## Strengths
 1.	Concise and Focused
 The content on each page is short and to the point, ensuring the users grasps the intended information quickly, without having to search through extraneous information. 
@@ -11,10 +11,10 @@ Helpful notes—such as the 4-minute time limit for the sync API and recommendat
 
 ## Areas for Improvement
 1.	Workflow Visuals:
-Integrate consistent, high-level flowcharts and interactive diagrams to visually depict how the build input is transformed into the generated portal. This will clarify directory structures and processing steps across sync, async, and migration workflows.
+Integrate consistent, high-level flowcharts and interactive diagrams to visually depict how the build input is transformed into the generated portal. This will clarify directory structures and processing steps across the workflows.
 2.	Troubleshooting Guides
 While the existing content covers step by step process in depth, the documentation could expand on common issues. For instance, more guidance on handling HTTP errors, authentication issues (e.g., missing API keys, timeouts), and build file validation errors will be helpful for users to troubleshoot on their own. Here, we can include common error messages, root cause analysis, and step-by-step remediation tips.
-Similarly, there can be a FAQs section that compiles the frequent queries and problems reported by users, with step by step instructions on how to resolve them. 
+Similarly, there can be a FAQs section that compiles frequent queries of users, with accurate and concise answers. 
 3.	Visual Guides
 The documents could incorporate a brief video or interactive tutorial at the start, offering an alternative medium to guide users. Visual, step-by-step walkthroughs can simplify complex processes and enhance overall comprehension. 
 4.	Key Concepts or Glossary
