@@ -1,2 +1,0 @@
-The documentation covers the complete lifecycle of managing API documentation as code. It details how to provide the inputs for portal generation, generate an API portal (both via synchronous and asynchronous APIs), automate portal generation. It also supports typical use cases, such as migrating an existing API portal to a docs-as-code workflow.
-# Strengths
